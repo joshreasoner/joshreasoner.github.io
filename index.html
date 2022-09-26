@@ -1,1 +1,373 @@
-"Hello World" 
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="cubes-container">
+        <div class="cube cube-1"></div>
+        <div class="cube cube-2"></div>
+        <div class="cube cube-3"></div>
+        <div class="cube cube-4"></div>
+        <div class="cube cube-5"></div>
+    </div>
+    <div class="container">
+        <header>
+            <div class="top-menu">
+                <ul>
+                    <li class="active" data-menu="about">
+                        <a href="#about">
+                            <i class="fas fa-user"></i>
+                            <span class="link">about</span>
+                        </a>
+                    </li>
+                    <li data-menu="resume">
+                        <a href="#resume">
+                            <i class="fa-solid fa-seedling"></i>
+                            <span class="link">resume</span>
+                        </a>
+                    </li>
+                    <li data-menu="work">
+                        <a href="#work">
+                            <i class="fa-solid fa-hammer"></i>
+                            <span class="link">work</span>
+                        </a>
+                    </li>
+                    <li data-menu="skills">
+                        <a href="#skills">
+                            <i class="fas fa-code"></i>
+                            <span class="link">skills</span>
+                        </a>
+                    </li>
+                    <li data-menu="contact">
+                        <a href="#contact">
+                            <i class="fas fa-at"></i>
+                            <span class="link">contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="hero" class="hero">
+            <div class="hero-img">
+                <img src="img/ReasonerJ_Headshot.jpg" alt="A picture of Josh Smiling">
+            </div>
+            <div class="hero-info">
+                <h2 class="title">joshua reasoner</h2>
+                <div class="hero-details">
+                    <h3 class="subtitle" id="subtitle"></h3>
+                    <p class="blink">|</p>
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/jreasoner/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/joshreasoner"><i class="fab fa-github"></i></a>
+                    <a href="mailto:joshuareasoner@outlook.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="links">
+                <a href="docs/ReasonerJoshua -Resume.pdf" download>download cv  <i class="fa-solid fa-download"></i></a>  <!-- add ability to print to file or download pdf resume -->
+                <a href="#contact" data-menu="contact" id="contact-me">contact me  <i class="fa-solid fa-phone-flip"></i></a>
+            </div>
+        </div>
+        <section id="about" class="about active">
+            <div class="about-me p-3">
+                <h3 class="specialtitle">about <span>me</span></h3>
+                <div class="row">
+                    <div class="text">
+                        <p>
+                            I am Joshua Reasoner. An Army veteran and software engineer specializing in cloud application development
+                            with a passion for people, creativity, and problem solving. A service-oriented person
+                            pivoting from a career in environmental restoration. Adept at communicating and
+                            contributing to diverse teams, mentoring and inspiring others, and delivering impact.
+                            Seeking to apply my skills in an organization where I can continue to collaborate, take on
+                            challenging tasks, remain curious, and have fun.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="resume" class="resume">
+            <div class="my-resume p-3">
+                <h3 class="specialtitle">R<span>esume</span></h3>
+                <div class="row">
+                    <div class="experience">
+                        <div class="title">
+                            <i class="fa-solid fa-tree"></i>
+                            <h4>Experience</h4>
+                        </div>
+                        <div class="exp-box">
+                            <span>2019 - 2022</span>
+                            <h4>Parks Maintenance</h4>
+                            <h5>City of Renton</h5>
+                            <p>Designed, installed, and repaired parks potable and non-potable water systems. Responsible for essential safety inspections on facilities and equipment. Trained and led team of four in use of software to map and run irrigation in parks throughout the city.</p>
+                        </div>
+                        <div class="exp-box">
+                            <span>2014-2016</span>
+                            <h4>Employment specialist</h4>
+                            <h5>Work Opportunities</h5>
+                            <p>
+                                Assisted adults with disabilities in achieving their employment goals. Helped
+                                multiple people obtain their first jobs. Created worksheets and cards to improve communications, productivity, and
+                                increase workforce and client job proficiency. Networked with businesses throughout Seattle to teach clients professional skills
+                                and inform prospective employers of the value of building an inclusive workforce.
+                            </p>
+                        </div>
+                        <div class="exp-box">
+                            <span>2001-2006</span>
+                            <h4>Infantry Team Leader</h4>
+                            <h5>City of Renton</h5>
+                            <p>
+                                Led and embraced broad range of responsibilities suited for higher ranks to
+                                include leading team of four soldiers while deployed on patrols and raids. Exhibited quick decision-making skill in mission critical situations.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="education">
+                        <div class="title">
+                            <i class="fas fa-university"></i>
+                            <h4>education</h4>
+                        </div>
+                        <div class="edu-box">
+                            <span>2022</span>
+                            <h4>Microsoft Software & Systems Academy</h4>
+                            <h5>Cloud Applications Development</h5>
+                            <p>C# | .NET | WPF | AZURE | SQL</p>
+                        </div>
+                        <div class="edu-box">
+                            <span>2013</span>
+                            <h4>Antioch University Seattle</h4>
+                            <h5>BA in Environmental Studies</h5>
+                        </div>
+                        <div class="edu-box">
+                            <span>2009</span>
+                            <h4>Eastern Florida State College</h4>
+                            <h5>AA Elementary Education</h5>
+                        </div>
+                        <div class="edu-box">
+                            <span>2016</span>
+                            <h4>Highline Community College</h4>
+                            <h5>Certified Employee Support Professional</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+                <div class="my-resume p-3" id="skills">
+                    <h3 class="specialtitle">My<span>skills</span></h3>
+                    <div class="row">
+                        <div class="skill-right">
+                            <div class="knowledges">
+                                <div class="title">
+                                    <i class="fas fa-list"></i>
+                                    <h4>knowledge</h4>
+                                </div>
+                                <div class="knowledge-container">
+                                    <div class="knowledge-box">
+                                        <i class="fas fa-check"></i>
+                                        <h4>Software development with C#</h4>
+                                    </div>
+                                    <div class="knowledge-box">
+                                        <i class="fas fa-check"></i>
+                                        <h4>Azure cloud platform fundamentals</h4>
+                                    </div>
+                                    <div class="knowledge-box">
+                                        <i class="fas fa-check"></i>
+                                        <h4>Web development</h4>
+                                    </div>
+                                    <div class="knowledge-box">
+                                        <i class="fas fa-check"></i>
+                                        <h4>Transact-SQL/Data and Access</h4>
+                                    </div>
+                                    <div class="knowledge-box">
+                                        <i class="fas fa-check"></i>
+                                        <h4>Designing and building applications using ASP.NET framework</h4>
+                                    </div>
+                                    <div class="knowledge-box">
+                                        <i class="fas fa-check"></i>
+                                        <h4>Unit and integration testing to validate solutions with ASP.NET projects</h4>
+                                    </div>
+                                    <div class="knowledge-box">
+                                        <i class="fas fa-check"></i>
+                                        <h4>WinForms, WPF, XAML</h4>
+                                    </div>
+                                    <div class="knowledge-box">
+                                        <i class="fas fa-check"></i>
+                                        <h4>Visual Studio Debugging</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-left">
+                            <div class="coding">
+                                <div class="title">
+                                    <i class="fas fa-code"></i>
+                                    <h4>coding</h4>
+                                </div>
+                                <div class="coding-container">
+                                    <div class="code">
+                                        <div class="progress">
+                                            <span class="progress-bar"></span>
+                                            <span class="num" data-num="75"></span>
+                                        </div>
+                                        <h5>C#</h5>
+                                    </div>
+                                    <div class="code">
+                                        <div class="progress">
+                                            <span class="progress-bar"></span>
+                                            <span class="num" data-num="70"></span>
+                                        </div>
+                                        <h5>WinForms/ WPF</h5>
+                                    </div>
+                                    <div class="code">
+                                        <div class="progress">
+                                            <span class="progress-bar"></span>
+                                            <span class="num" data-num="65"></span>
+                                        </div>
+                                        <h5>JavaScript</h5>
+                                    </div>
+                                    <div class="code">
+                                        <div class="progress">
+                                            <span class="progress-bar"></span>
+                                            <span class="num" data-num="55"></span>
+                                        </div>
+                                        <h5>SQL / T-SQL</h5>
+                                    </div>
+                                    <div class="code">
+                                        <div class="progress">
+                                            <span class="progress-bar"></span>
+                                            <span class="num" data-num="70"></span>
+                                        </div>
+                                        <h5>HTML5 / CSS</h5>
+                                    </div>
+                                    <div class="code">
+                                        <div class="progress">
+                                            <span class="progress-bar"></span>
+                                            <span class="num" data-num="50"></span>
+                                        </div>
+                                        <h5>BootStrap</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="work" class="work">
+            <div class="my-work p-3">
+                <h3 class="specialtitle">Recent<span>work</span></h3>
+                <div class="work-container">
+                    <div class="box">
+                        <div class="box-img">
+                            <video src="vids/Project 1.mp4" poster="img/Flashcards.jpg" controls muted height="150" width="300"></video>
+                        </div>
+                        <div class="box-content">
+                            <h4>Customizeable Flashcard Appliation</h4>
+                            <p><span>C#/WPF/CRUD/Collections/SQL</span>- 1 Sep 2022</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-img">
+                            <video src="vids/Assignment 6.2.mp4" poster="img/Rustbucket Motors.jpg" controls muted height="150" width="300"></video>
+                        </div>
+                        <div class="box-content">
+                            <h4>Rustbucket Motors</h4>
+                            <p><span>C#/WinForms/CRUD/SQL</span>- 21 Aug 2022</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-img">
+                            <video src="vids/Assignment 5.3.mp4" poster="img/AddressBook.jpg" controls muted height="150" width="300"></video>
+                        </div>
+                        <div class="box-content">
+                            <h4>Book of Addresses</h4>
+                            <p><span>C#/WinForms/CRUD/Collections</span>-11 Aug 2022</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-img">
+                            <video src="vids/Assignment 5.2.mp4" poster="img/GradeBook.jpg" controls muted height="150" width="300"></video>
+                        </div>
+                        <div class="box-content">
+                            <h4>Teacher Grade Book</h4>
+                            <p><span>C#/WinForms/Lists/Streamwriter</span>-10 Aug 2022</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-img">
+                            <video src="vids/Assignment 5.1.mp4" poster="img/Calc.jpg" controls muted height="150" width="300"></video>
+                        </div>
+                        <div class="box-content">
+                            <h4>Calculator</h4>
+                            <p><span>C#/WinForms/Operations/Events</span>-10 Aug 2022</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-img">
+                            <video src="vids/Assignment 4.4.mp4" poster="img/Kittenscoffee.jpg" controls muted height="150" width="300"></video>
+                        </div>
+                        <div class="box-content">
+                            <h4>Beverage Order App</h4>
+                            <p><span>C#/WinForms/Lists</span>-10 Aug 2022</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-img">
+                            <video src="vids/Assignment 4.3.mp4" poster="img/Student Records.jpg" controls muted height="150" width="300"></video>
+                        </div>
+                        <div class="box-content">
+                            <h4>Student Records</h4>
+                            <p><span>C#/WinForms/Lists</span>-10 Aug 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact-me p-3">
+                <h3 class="specialtitle">Reach <span>out</span></h3>
+                <div class="contact-container">
+                    <div class="info-list">
+                        <ul>
+                            <li><strong>email - <i class="fa-solid fa-envelope"></i></strong><a href="mailto:joshuareasoner@outlook.com">joshuaReasoner@outlook.com</a></li>
+                            <li><strong>Linkedin - <i class="fa-brands fa-linkedin"></i></strong><a href="https://www.linkedin.com/in/jreasoner/">linkedin.com/in/jreasoner</a></li>
+                            <li><strong>Github - <i class="fab fa-github"></i></strong><a href="https://github.com/joshreasoner">github.com/joshreasoner</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Click the button to get your coordinates.</p>
+
+                <button onclick="getLocation()">Try It</button>
+
+                <p id="demo"></p>
+
+                <script>
+                    var x = document.getElementById("demo");
+
+                    function getLocation() {
+                        if (navigator.geolocation) {
+                            navigator.geolocation.getCurrentPosition(showPosition);
+                        } else {
+                            x.innerHTML = "Geolocation is not supported by this browser.";
+                        }
+                    }
+
+                    function showPosition(position) {
+                        x.innerHTML = "Latitude: " + position.coords.latitude +
+                            "<br>Longitude: " + position.coords.longitude;
+                    }
+                </script>
+            </div>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/e975688fd2.js" crossorigin="anonymous"></script>
+    <script src="js/site.js"></script>
+</body>
+</html>
