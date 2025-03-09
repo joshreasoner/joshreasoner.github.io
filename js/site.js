@@ -1,8 +1,4 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
-//TypeWrite Effect
+﻿//TypeWrite Effect
 let myText = document.querySelector('#subtitle');
 const words = ["Army veteran", "Software developer", "Father", "Humanitarian"];
 let i = 0;
