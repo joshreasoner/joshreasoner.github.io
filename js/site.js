@@ -4,7 +4,7 @@
 // Write your JavaScript code.
 //TypeWrite Effect
 let myText = document.querySelector('#subtitle');
-const words = ["Army veteran", "Software developer", "Father", "Humanitarian"];
+const words = ["Cloud application developer", "Army veteran", "Human-centered engineer", "Continuous learner"];
 let i = 0;
 let timer;
 
